@@ -1,3 +1,8 @@
+import { Controller } from "./controller/controller";
+
 async function main() {
-    // TODO : 작성
+    const controller = new Controller();
+    await controller.playGame();
 }
+
+main()
